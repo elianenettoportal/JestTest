@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1633891187210" clover="3.2.0">
+  <project timestamp="1633891187211" name="All files">
+    <metrics statements="104" coveredstatements="86" conditionals="49" coveredconditionals="34" methods="19" coveredmethods="16" elements="172" coveredelements="136" complexity="0" loc="104" ncloc="104" packages="4" files="8" classes="8"/>
+    <package name="domain.entity">
+      <metrics statements="94" coveredstatements="76" conditionals="49" coveredconditionals="34" methods="18" coveredmethods="15"/>
+      <file name="coupon.js" path="D:\Icarustech\project_cpf\src\domain\entity\coupon.js">
+        <metrics statements="18" coveredstatements="15" conditionals="6" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+      </file>
+      <file name="cpf.js" path="D:\Icarustech\project_cpf\src\domain\entity\cpf.js">
+        <metrics statements="26" coveredstatements="24" conditionals="10" coveredconditionals="7" methods="3" coveredmethods="3"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="13" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+      <file name="delivery.js" path="D:\Icarustech\project_cpf\src\domain\entity\delivery.js">
+        <metrics statements="13" coveredstatements="10" conditionals="10" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="item.js" path="D:\Icarustech\project_cpf\src\domain\entity\item.js">
+        <metrics statements="10" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="3" type="stmt"/>
+      </file>
+      <file name="order.js" path="D:\Icarustech\project_cpf\src\domain\entity\order.js">
+        <metrics statements="27" coveredstatements="21" conditionals="21" coveredconditionals="15" methods="5" coveredmethods="5"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="4" falsecount="1"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="45" count="6" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.database">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="db.js" path="D:\Icarustech\project_cpf\src\infra\database\db.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.model">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="item.js" path="D:\Icarustech\project_cpf\src\infra\model\item.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.repository">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="itemRepository.js" path="D:\Icarustech\project_cpf\src\infra\repository\itemRepository.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
