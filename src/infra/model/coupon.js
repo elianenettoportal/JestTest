@@ -1,28 +1,28 @@
 const Sequelize = require('sequelize');
 const database = require('../database/db');
  
-const Item = database.define('item', {
+const Coupon = database.define('coupon', {
     id: {
         type: Sequelize.INTEGER,
         autoIncrement : true,
         allowNull     : false,
         primaryKey    : true
     },
-    name: {
+    code: {
         type: Sequelize.STRING(100),
         allowNull: false
     },
-    description: {
-        type      : Sequelize.STRING(500),
+    percentage: {
+        type      : Sequelize.FLOAT,
         allowNull : true
     },
-    price: {
-        type         : Sequelize.FLOAT,
-        defaultValue : null,
-    },
+    expireDate: {
+        type       : Sequelize.DATEONLY,
+        allowNull  : true,
+    }
 }, {
     timestamps: false,
-    tableName: 'item',
+    tableName: 'coupon',
 })
  
-module.exports = Item;
+module.exports = Coupon;

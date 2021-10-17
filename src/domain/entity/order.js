@@ -4,6 +4,10 @@ class Order {
     constructor(items, coupon) {
 		this.orderItemns = items;
         this.coupon = coupon;
+        // this.cpf=
+        // this.deliveryFee
+        // this.issueDate=
+
 	}
 
     orderExecution = () =>{
